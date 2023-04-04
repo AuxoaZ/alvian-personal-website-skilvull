@@ -256,6 +256,39 @@ div#main-card {
   margin-top: 0px;
   margin-bottom: 5px;
 }
+
+.project {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.project:hover {
+  background-color: #edeff2;
+}
+.project-pic > p:first-child {
+  margin-bottom: 9px;
+}
+.project-pic > img {
+  /* width: 200px; */
+  width: 450px;
+  border: 1px solid #c7c6c6;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+.project-pic > span {
+  margin-top: 0;
+  font-size: 0.75rem; /* 12px */
+  margin-right: 5px;
+  color: #737373;
+  padding: 5px;
+  border: 1px solid #0e80cc;
+  border-radius: 10px;
+}
+.project-pic > span:hover {
+  background-color: #0e80cc;
+  color: #e6ecf0;
+}
 #footer {
   background-color: #f8f9fa;
 }
