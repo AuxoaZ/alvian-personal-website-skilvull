@@ -230,6 +230,32 @@ div#main-card {
   /* padding-top: 30px; */
   padding-bottom: 30px;
 }
+.article > .title-post {
+  margin-bottom: 30px;
+}
+.article > .title-post h2 {
+  margin-bottom: 0px;
+}
+.article > .title-post p {
+  margin-top: 5px;
+}
+.article > .title-post > .link-post {
+  padding-left: 20px;
+}
+.article > .title-post > .link-post p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.article > .title-post > .link-post p > a {
+  color: #0e80cc;
+}
+.article > .title-post > .link-post p > a:hover {
+  border-bottom: 4px solid #0c71b5;
+}
+.article > .title-post > .link-post span {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
 #footer {
   background-color: #f8f9fa;
 }
@@ -320,7 +346,7 @@ div#main-card {
 .tweet-info-counts div svg {
   color: #f43f5e;
   fill: #f43f5e;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 .tweet-info-counts div i {
   color: #657786;
